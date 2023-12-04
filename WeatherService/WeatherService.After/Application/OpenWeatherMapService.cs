@@ -6,7 +6,7 @@ namespace WeatherService.Before.Application
 {
     public class OpenWeatherMapService : IWeatherService
     {
-        private const string ApiKey = "8af92e53ff88b48f1db0b455fbea99b4";
+        private const string ApiKey = "<your-api-key>";
 
         private readonly IHttpClientFactory _httpClientFactory = default!;
         private readonly ILogger<OpenWeatherMapService> _logger = default!;
